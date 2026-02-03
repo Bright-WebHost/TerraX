@@ -9,7 +9,7 @@ const createPageUrl = (pageName) => {
 const navigationItems = [
   { title: "Home", url: createPageUrl("") },
   { title: "About Us", url: createPageUrl("About") },
-  { title: "Products", url: createPageUrl("Products") },
+  { title: "Products & Services", url: createPageUrl("Products") },
   { title: "Brands", url: createPageUrl("Brands") },
   { title: "Contact", url: createPageUrl("Contact") }
 ];

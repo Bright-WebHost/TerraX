@@ -68,7 +68,7 @@ export default function Contact() {
                 <Phone className="w-6 h-6 sm:w-8 sm:h-8" />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">Phone</h3>
-              <p className="text-slate-600 mb-2 text-sm sm:text-base">+919742807007</p>
+              <p className="text-slate-600 mb-2 text-sm sm:text-base">+974 50255007</p>
               <p className="text-xs sm:text-sm text-slate-500">Mon-Fri, 9:00 AM - 5:00 PM</p>
             </div>
             
@@ -89,7 +89,7 @@ export default function Contact() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">Office</h3>
               <p className="text-slate-600 mb-2 text-sm sm:text-base">TerraX Trading And Services</p>
-              <p className="text-xs sm:text-sm text-slate-500"> DOHA, QATAR</p>
+              <p className="text-xs sm:text-sm text-slate-500"> Office 806, Zone 14, Street 902, Ishraq, Building 8, PO Box No. 8000, Musheireb Doha, Qatar</p>
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Contact() {
                       </label>
                       <input
                         id="name"
-                        placeholder="John Doe"
+                        placeholder="Your Full Name"
                         required
                         onChange={(e) => setFormData({...formData, name: e.target.value})}
                         value={formData.name}
@@ -181,15 +181,15 @@ export default function Contact() {
                 </div>
                 <div className="space-y-3 text-sm sm:text-base">
                   <div className="flex justify-between">
-                    <span className="text-slate-700">Monday - Friday</span>
-                    <span className="font-medium text-slate-900">9:00 AM - 5:00 PM</span>
+                    <span className="text-slate-700">Saturday - Thursday</span>
+                    <span className="font-medium text-slate-900">7:00 AM - 5:00 PM</span>
                   </div>
-                  <div className="flex justify-between">
+                  {/* <div className="flex justify-between">
                     <span className="text-slate-700">Saturday</span>
                     <span className="font-medium text-slate-900">9:00 AM - 12:00 PM</span>
-                  </div>
+                  </div> */}
                   <div className="flex justify-between">
-                    <span className="text-slate-700">Sunday</span>
+                    <span className="text-slate-700">Friday</span>
                     <span className="font-medium text-slate-900">Holiday</span>
                   </div>
                   <div className="pt-4 mt-4 border-t border-blue-200">

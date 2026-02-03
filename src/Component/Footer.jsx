@@ -77,7 +77,7 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>
                   TerraX Trading And Services<br/>
-                  Doha, Qatar
+                  Office 806, Zone 14, Street 902, Ishraq, Building 8, PO Box No. 8000, Musheireb Doha, Qatar
                 </span>
               </div>
               <div 
@@ -92,7 +92,7 @@ const Footer = () => {
                 onClick={handlePhoneClick}
               >
                 <Phone className="w-4 h-4" />
-                <span>+919742807007</span>
+                <span>+974 50255007</span>
               </div>
             </div>
           </div>
