@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import { createPageUrl } from "@/utils";
-import { ArrowRight, Zap, Cog, Activity, Stethoscope, Play, Award, Globe, Users } from "lucide-react";
+import { ArrowRight, Zap, Cog, Activity, Stethoscope, Play, Award, Globe, Users, Handshake } from "lucide-react";
 import { Statistics } from "./Statistics";
 import { Industries } from "./Industries";
 
@@ -136,11 +136,11 @@ export default function Home() {
                 description: "Precision measurement devices & Field Instruments"
               },
               {
-                icon: Stethoscope,
-                name: "Medical",
+                icon: Handshake,
+                name: "Maintenance Services",
                 color: "from-green-500 to-green-600",
                 bgColor: "bg-green-50",
-                description: "Healthcare & laboratory equipment"
+                description: "Comprehensive maintenance and services"
               }
             ].map((category) => (
             

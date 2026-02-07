@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User, Phone, ExternalLink } from "lucide-react";
+import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User, Phone, ExternalLink, Handshake } from "lucide-react";
 
 const createPageUrl = (pageName) => {
   return `/${pageName.toLowerCase().replace(/\s+/g, '-')}`;
@@ -123,7 +123,7 @@ const Footer = () => {
                 to={createPageUrl("Products")}
                 className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors"
               >
-                <Stethoscope className="w-4 h-4 text-green-400" /> Medical
+                <Handshake className="w-4 h-4 text-green-400" /> Maintenance Services
               </Link>
             </div>
           </div>

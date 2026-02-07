@@ -57,21 +57,15 @@ export default function Products() {
       products: ["Field Instruments", "Calibration Equipment", "Instrument Cables", "Analyzers", "VFDs", "Instrument Valves & Tubings", "Vibration Instruments","IOT Devices"]
     },
     {
-      title: "Medical Instruments",
+      title: "Maintenance Services",
+      subtitle: "Provision of preventive and corrective maintenance services within facilities, including",
       icon: Stethoscope,
       iconColor: "text-green-600",
       bgColor: "bg-green-50",
       images: [
-        "img/al1.png",
-        "img/23.png",
-        "img/24.png",
-        "img/32.png",
-        "img/26.png",
-        "img/27.png",
-        "img/al2.png",
-        "img/31.png",
+        "img/ter.png",
       ],
-      products: ["Weighing Balances", "Shakers", "Pipettes", "Vortex Mixers", "Stirring Heaters", "Incubators", "Medical Refrigerators and freezers","Centrifuges"]
+      products: ["HVAC", "MEP systems", " Civil works and general building maintenance", "Ensuring safe operation", "Regulatory compliance", "Uninterrupted facility performance"]
     }
   ];
 
@@ -133,80 +127,82 @@ export default function Products() {
 
       {/* Products Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-            {productCategories.map((category) => (
-              <div key={category.title} className={`${category.bgColor} p-6 md:p-8 rounded-xl md:rounded-2xl border border-slate-200 shadow-md hover:shadow-lg transition-all duration-300`}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                  {/* Left Side: Info */}
-                  <div className="md:order-1">
-                    <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
-                      <category.icon className={`w-8 h-8 md:w-10 md:h-10 ${category.iconColor}`} />
-                      <h3 className="text-xl md:text-2xl font-bold text-slate-900">{category.title}</h3>
-                    </div>
-
-                    {/* Products List */}
-                    <ul className="space-y-2 md:space-y-3">
-                      {category.products.map((product) => (
-                        <li key={product} className="flex items-center gap-2 md:gap-3 text-slate-700">
-                          <ChevronRight className="w-4 h-4 md:w-5 md:h-5 text-amber-500 flex-shrink-0" />
-                          <span className="text-xs md:text-sm">{product}</span>
-                        </li>
-                      ))}
-                    </ul>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+          {productCategories.map((category, index) => (
+            <div
+              key={category.title}
+              className={`${category.bgColor} p-6 md:p-8 rounded-xl md:rounded-2xl border border-slate-200 shadow-md hover:shadow-lg transition-all duration-300`}
+            >
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                
+                {/* Left Side */}
+                <div>
+                  <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
+                    <category.icon
+                      className={`w-8 h-8 md:w-10 md:h-10 ${category.iconColor}`}
+                    />
+                    <h3 className="text-xl md:text-2xl font-bold text-slate-900">
+                      {category.title}
+                    </h3>
                   </div>
+                  <h4 className="text-sm md:text-base text-slate-600 mb-3">{category.subtitle}</h4>
 
-                  {/* Right Side: 8 Images in Grid */}
-                  <div className="grid grid-cols-6 grid-rows-12 gap-4 h-[300px] md:h-[300px] md:order-2">
-                      <img 
-                        src={category.images[0]} 
-                        alt={`${category.title} product 1`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4"
-                      />
-                      <img 
-                        src={category.images[1]} 
-                        alt={`${category.title} product 2`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-3"
-                      />
-                      <img 
-                        src={category.images[2]} 
-                        alt={`${category.title} product 3`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-5"
-                      />
-                      <img 
-                        src={category.images[3]} 
-                        alt={`${category.title} product 4`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 row-start-5"
-                      />
-                      <img 
-                        src={category.images[4]} 
-                        alt={`${category.title} product 5`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-3 row-start-5"
-                      />
-                      <img 
-                        src={category.images[5]} 
-                        alt={`${category.title} product 6`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-5 row-start-5"
-                      />
-                      <img 
-                        src={category.images[6]} 
-                        alt={`${category.title} product 7`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-2 row-start-9"
-                      />
-                      <img 
-                        src={category.images[7]} 
-                        alt={`${category.title} product 8`} 
-                        className="w-full h-full object-cover rounded-lg shadow-sm col-span-2 row-span-4 col-start-4 row-start-9"
-                      />
-                    </div>
-
-
+                  <ul className="space-y-2 md:space-y-3">
+                    {category.products.map((product) => (
+                      <li
+                        key={product}
+                        className="flex items-center gap-2 md:gap-3 text-slate-700"
+                      >
+                        <ChevronRight className="w-4 h-4 md:w-5 md:h-5 text-amber-500 flex-shrink-0" />
+                        <span className="text-xs md:text-sm">{product}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
+
+                {/* Right Side Images */}
+                {index === 3 ? (
+                  // 🔹 4th Card → Single Full Image
+                  <div className="h-[300px]">
+                    <img
+                      src={category.images[0]}
+                      alt={`${category.title} full`}
+                      className="w-full h-full object-cover rounded-xl shadow-md"
+                    />
+                  </div>
+                ) : (
+                  // 🔹 Other Cards → 8 Image Grid
+                  <div className="grid grid-cols-6 grid-rows-12 gap-4 h-[300px]">
+                    {category.images.slice(0, 8).map((img, i) => {
+                      const positions = [
+                        "col-span-2 row-span-4",
+                        "col-span-2 row-span-4 col-start-3",
+                        "col-span-2 row-span-4 col-start-5",
+                        "col-span-2 row-span-4 row-start-5",
+                        "col-span-2 row-span-4 col-start-3 row-start-5",
+                        "col-span-2 row-span-4 col-start-5 row-start-5",
+                        "col-span-2 row-span-4 col-start-2 row-start-9",
+                        "col-span-2 row-span-4 col-start-4 row-start-9",
+                      ];
+
+                      return (
+                        <img
+                          key={i}
+                          src={img}
+                          alt=""
+                          className={`w-full h-full object-cover rounded-lg shadow-sm ${positions[i]}`}
+                        />
+                      );
+                    })}
+                  </div>
+                )}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Services Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-slate-50">
