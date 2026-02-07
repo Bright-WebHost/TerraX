@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TerraX/static/css/main.b54b3838.css",
-    "main.js": "/TerraX/static/js/main.a1302c4c.js",
+    "main.css": "/TerraX/static/css/main.9b57e724.css",
+    "main.js": "/TerraX/static/js/main.1472e152.js",
     "static/js/453.2a225092.chunk.js": "/TerraX/static/js/453.2a225092.chunk.js",
     "index.html": "/TerraX/index.html",
-    "main.b54b3838.css.map": "/TerraX/static/css/main.b54b3838.css.map",
-    "main.a1302c4c.js.map": "/TerraX/static/js/main.a1302c4c.js.map",
+    "main.9b57e724.css.map": "/TerraX/static/css/main.9b57e724.css.map",
+    "main.1472e152.js.map": "/TerraX/static/js/main.1472e152.js.map",
     "453.2a225092.chunk.js.map": "/TerraX/static/js/453.2a225092.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b54b3838.css",
-    "static/js/main.a1302c4c.js"
+    "static/css/main.9b57e724.css",
+    "static/js/main.1472e152.js"
   ]
 }
