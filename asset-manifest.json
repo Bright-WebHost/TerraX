@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bright-WebHost/TerraX/static/css/main.9b57e724.css",
-    "main.js": "/Bright-WebHost/TerraX/static/js/main.69599d5d.js",
+    "main.js": "/Bright-WebHost/TerraX/static/js/main.60189ac5.js",
     "static/js/453.2a225092.chunk.js": "/Bright-WebHost/TerraX/static/js/453.2a225092.chunk.js",
     "index.html": "/Bright-WebHost/TerraX/index.html",
     "main.9b57e724.css.map": "/Bright-WebHost/TerraX/static/css/main.9b57e724.css.map",
-    "main.69599d5d.js.map": "/Bright-WebHost/TerraX/static/js/main.69599d5d.js.map",
+    "main.60189ac5.js.map": "/Bright-WebHost/TerraX/static/js/main.60189ac5.js.map",
     "453.2a225092.chunk.js.map": "/Bright-WebHost/TerraX/static/js/453.2a225092.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b57e724.css",
-    "static/js/main.69599d5d.js"
+    "static/js/main.60189ac5.js"
   ]
 }
