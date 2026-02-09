@@ -12,7 +12,7 @@ import Brands from "./Component/Brands";
 
 export default function  App() {
   return (
-  <BrowserRouter basename="/" >
+  <BrowserRouter>
   <ScrollToTop />
   <NavBar/>
   {/* <Layout/> */}
