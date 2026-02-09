@@ -49,7 +49,7 @@ export default function About() {
             <div className="prose prose-lg">
               <h3 className="text-3xl font-bold text-slate-900">A Trusted Trading Company</h3>
               <p className="text-slate-600 leading-[1.75]">
-                TerraX Trading And Services is a trusted trading company, based in Qatar, specializing in Electrical, Mechanical, Instrumentation, and Medical Products. We work with global manufacturers and suppliers to provide industries with high-quality, tested products.
+                TerraX Trading And Services is a trusted trading company, based in Qatar, specializing in Electrical, Mechanical and Instrumentation Products. We work with global manufacturers and suppliers to provide industries with high-quality, tested products.
               </p><br/>
               <p className="text-slate-600 leading-[1.75]">
                 At TerraX, we believe that business is about building long-term partnerships, not just supplying products. </p>

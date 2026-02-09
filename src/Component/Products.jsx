@@ -1,5 +1,5 @@
 import React from "react";
-import { Zap, Cog, Activity, Stethoscope, ChevronRight, Globe, Shield, Truck, Headphones } from "lucide-react";
+import { Zap, Cog, Activity, Stethoscope, ChevronRight, Globe, Shield, Truck, Headphones, Handshake } from "lucide-react";
 
 export default function Products() {
   const productCategories = [
@@ -59,7 +59,7 @@ export default function Products() {
     {
       title: "Maintenance Services",
       subtitle: "Provision of preventive and corrective maintenance services within facilities, including",
-      icon: Stethoscope,
+      icon: Handshake,
       iconColor: "text-green-600",
       bgColor: "bg-green-50",
       images: [
