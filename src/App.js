@@ -3,7 +3,7 @@ import Home from "./Component/Home";
 import Products from "./Component/Products";
 import About from "./Component/About";
 import Contact from "./Component/Contact";
-import Layout from "./Component/Layout";
+// import Layout from "./Component/Layout";
 import PageHeader from "./Component/PageHeader";
 import NavBar from "./Component/NavBar";
 import Footer from "./Component/Footer";

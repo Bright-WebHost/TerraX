@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import { createPageUrl } from "@/utils";
-import { ArrowRight, Zap, Cog, Activity, Stethoscope, Play, Award, Globe, Users, Handshake } from "lucide-react";
+import { ArrowRight, Zap, Cog, Activity,   Play, Award, Globe, Users, Handshake } from "lucide-react";
 import { Statistics } from "./Statistics";
 import { Industries } from "./Industries";
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User, Phone, ExternalLink, Handshake } from "lucide-react";
+import { Mail, MapPin, Zap, Cog, Activity,  Send, House, Book, ShoppingCart, Target, User, Phone, ExternalLink, Handshake } from "lucide-react";
 
 const createPageUrl = (pageName) => {
   return `/${pageName.toLowerCase().replace(/\s+/g, '-')}`;

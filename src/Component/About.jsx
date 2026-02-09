@@ -1,6 +1,6 @@
 import React from "react";
-import PageHeader from "./PageHeader";
-import { Globe, Users, Award, Target, Eye, CheckCircle } from "lucide-react";
+// import PageHeader from "./PageHeader";
+import {  Target, Eye, CheckCircle } from "lucide-react";
 
 export default function About() {
   const advantages = [

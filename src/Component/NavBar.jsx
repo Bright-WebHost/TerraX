@@ -25,7 +25,7 @@ const NavBar = () => {
           {/* Logo */}
           <Link to={createPageUrl("")} className="flex items-center gap-3">
             <div className="w-12 h-12 sm:w-10 sm:h-10  flex items-center justify-center ">
-              <img src="img/Terragence  LOGO.png" style={{height:"44px"}}/>
+              <img src="img/Terragence  LOGO.png" alt="Terragence Logo" style={{height:"44px"}}/>
             </div>
             <div>
               <h1 className="font-extrabold text-blue-700 text-lg sm:text-xl tracking-tight">TerraX</h1>

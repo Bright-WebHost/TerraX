@@ -1,5 +1,5 @@
 import React from "react";
-import { Zap, Cog, Activity, Stethoscope, ChevronRight, Globe, Shield, Truck, Headphones, Handshake } from "lucide-react";
+import { Zap, Cog, Activity,  ChevronRight, Globe, Shield, Truck, Headphones, Handshake } from "lucide-react";
 
 export default function Products() {
   const productCategories = [
