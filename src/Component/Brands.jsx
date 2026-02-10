@@ -92,12 +92,12 @@ export default function Brands() {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-gray-900 mb-2">50+</div>
-              <div className="text-gray-600">Global Brands</div>
+              <div className="text-4xl font-bold text-gray-900 mb-2">2+</div>
+              <div className="text-gray-600">Countries Served</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-gray-900 mb-2">15M+</div>
-              <div className="text-gray-600">Users Reached</div>
+              <div className="text-4xl font-bold text-gray-900 mb-2">24/7</div>
+              <div className="text-gray-600">Operational Support</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-gray-900 mb-2">99.9%</div>

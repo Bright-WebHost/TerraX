@@ -3,7 +3,7 @@ import React from "react";
 export const Statistics = () => {
   const stats = [
     {
-      number: "5+",
+      number: "1+",
       label: "Years of Excellence",
       description: "Serving industries worldwide"
     },
@@ -18,7 +18,7 @@ export const Statistics = () => {
       description: "Quality guaranteed solutions"
     },
     {
-      number: "10+",
+      number: "2+",
       label: "Countries Served",
       description: "Worldwide reach & presence"
     }
